@@ -1,8 +1,29 @@
 aid: tenet-industries
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenet-industries.png
 name: Tenet Industries
-description: Tenet Industries is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Tenet Industries is a Swedish defense-technology startup founded in 2026 by
+  Hugo Frisk, Fabian Andersson, and Emil Falk (students from KTH Royal Institute
+  of Technology and the Stockholm School of Economics) building low-cost,
+  mass-producible defense systems. Applying design-for-manufacturing and
+  first-principles engineering, the company starts with strike/attack drones —
+  a kamikaze quadcopter that assembles in two minutes with roughly half the
+  parts of comparable systems — and extends the same hardware/software platform
+  to loitering munitions, jammers, radars, and missile systems. Backed by
+  Y Combinator ($500K). As a defense hardware manufacturer, Tenet Industries
+  currently publishes no public API, SDK, developer portal, or event surface;
+  this profile is maintained as a company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/tenet-industries/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Drones
+- Hardware
+- Manufacturing
+- Aerospace
+- Y Combinator
+- Sweden
 apis: []
+common:
+- type: Website
+  url: https://tenetindustries.com
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/tenet-industries
+- type: X
+  url: https://x.com/industriestenet
+- type: CompanyProfile
+  url: https://www.ycombinator.com/companies/tenet-industries
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
